@@ -9,6 +9,6 @@ class ClientesController extends Controller
 {
     public function index(){
 
-        return view('admin.clientes.lista-clientes');
+        return view('admin.clientes.listaclientes');
     }
 }

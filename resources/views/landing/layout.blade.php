@@ -861,13 +861,13 @@
                     <div class="col-md-5">
 
                         <!-- Banner de Fotos-->
-                        <div class="gallery-item design" style="margin-top: 90px;">
+                        <div class="gallery-item design" style="margin-top: -56px;">
                             <div class="thumb">
                                 <div class="flexslider-wrapper">
                                     <div class="flexslider">
                                         <ul class="slides">
-                                            <li><a title="Portfolio Gallery - Photo 1"><img src="/gf/images/gf/imgGF_1.jpg" alt=""></a></li>
-                                            <li><a title="Portfolio Gallery - Photo 2"><img src="/gf/images/gf/imgGF_2.jpg" alt=""></a></li>
+                                            <li><a title="Portfolio Gallery - Photo 1"><img src="/gf/images/gf/banner/banner_1_.png" alt=""></a></li>
+                                            <li><a title="Portfolio Gallery - Photo 2"><img src="/gf/images/gf/banner/banner_2_.png" alt=""></a></li>
                                             {{--<li><a href="http://placehold.it/500x339" title="Portfolio Gallery - Photo 3"><img src="http://placehold.it/500x339" alt=""></a></li>--}}
                                         </ul>
                                     </div>

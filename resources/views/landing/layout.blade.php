@@ -5,9 +5,9 @@
     <!-- Meta Tags -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <meta name="description" content="DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template" />
-    <meta name="keywords" content="keyword1,keyword2,keyword3,keyword4,keyword5" />
-    <meta name="author" content="ThemeMascot" />
+    <meta name="description" content="DentalPro | Dental Clinic, Dentist & Dental Care HTML5 Template"/>
+    <meta name="keywords" content="keyword1,keyword2,keyword3,keyword4,keyword5"/>
+    <meta name="author" content="ThemeMascot"/>
 
     <!-- Page Title -->
     <title>Germán Fernandez | Landing Page</title>
@@ -24,6 +24,7 @@
     <link href="/gf/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/gf/css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="/gf/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="/gf/css/banner_query.css" rel="stylesheet" type="text/css">
     <link href="/gf/css/css-plugin-collections.css" rel="stylesheet"/>
     <!-- CSS | menuzord megamenu skins -->
     <link href="/gf/css/menuzord-megamenu.css" rel="stylesheet"/>
@@ -65,14 +66,17 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="widget">
-                            <i class="fa fa-clock-o text-theme-colored"></i> Horario de Atención Mon - Sabado : 6.00 am - 10.00 pm
+                            <i class="fa fa-clock-o text-theme-colored"></i> Horario de Atención Lun - Sab : 6.00 am
+                            - 10.00 pm
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="widget">
                             <ul class="list-inline pull-right flip sm-pull-none sm-text-center">
-                                <li><i class="fa fa-phone text-theme-colored"></i> Llámanos al<a href="#">+(012) 8200 700</a></li>
-                                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">gflandingpage@gmail.com</a></li>
+                                <li><i class="fa fa-phone text-theme-colored"></i> Llámanos al<a href="#">+(012) 8200
+                                        700</a></li>
+                                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">gflandingpage@gmail.com</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -82,9 +86,11 @@
         <div class="header-nav">
             <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
                 <div class="container" style="height: 89px;">
-                    <nav id="menuzord-right" class="menuzord blue no-bg"><a class="menuzord-brand pull-left flip mb-15" href="/"><img src="/gf/images/gf/logoGF_2.png" alt=""></a>
-                        <ul class="menuzord-menu">
-                            {{--<li class="active"><a href="#home">Home</a>
+                    <nav id="menuzord-right" class="menuzord blue no-bg"><a class="menuzord-brand pull-left flip mb-15"
+                                                                            href="/"><img
+                                    src="/gf/images/gf/logoGF_2.png" alt=""></a>
+                        {{--<ul class="menuzord-menu">
+                            --}}{{--<li class="active"><a href="#home">Home</a>
                                 <ul class="dropdown">
                                     <li><a href="#">Multipage Layouts</a>
                                         <ul class="dropdown">
@@ -144,8 +150,8 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>--}}
-                            {{--<li><a href="#">Features</a>
+                            </li>--}}{{--
+                            --}}{{--<li><a href="#">Features</a>
                                 <ul class="dropdown">
                                     <li><a href="features-preloader.html">Preloaders</a></li>
                                     <li><a href="#">Layout Variations</a>
@@ -383,8 +389,8 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>--}}
-                            {{--<li><a href="#">Pages</a>
+                            </li>--}}{{--
+                            --}}{{--<li><a href="#">Pages</a>
                                 <ul class="dropdown">
                                     <li><a href="#">About</a>
                                         <ul class="dropdown">
@@ -529,8 +535,8 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>--}}
-                            {{--<li><a href="#">Blog</a>
+                            </li>--}}{{--
+                            --}}{{--<li><a href="#">Blog</a>
                                 <ul class="dropdown">
                                     <li><a href="#">Blog Classic</a>
                                         <ul class="dropdown dropdown-left">
@@ -578,8 +584,8 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>--}}
-                           {{-- <li><a href="javascript:void(0)">Mega Menu</a>
+                            </li>--}}{{--
+                           --}}{{-- <li><a href="javascript:void(0)">Mega Menu</a>
                                 <div class="megamenu megamenu-bg-img">
                                     <div class="megamenu-row">
                                         <div class="col3">
@@ -643,8 +649,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>--}}
-                            {{--<li><a href="javascript:void(0)">Shortcodes</a>
+                            </li>--}}{{--
+                            --}}{{--<li><a href="javascript:void(0)">Shortcodes</a>
                                 <div class="megamenu">
                                     <div class="megamenu-row">
                                         <div class="col3">
@@ -731,8 +737,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </li>--}}
-                        </ul>
+                            </li>--}}{{--
+                        </ul>--}}
                     </nav>
                 </div>
             </div>
@@ -742,118 +748,74 @@
     <!-- Start main-content -->
     <div class="main-content">
         <!-- Section: inner-header -->
-        <section class="inner-header divider parallax layer-overlay overlay-white-8" data-bg-img="gf/images/gf/banner_gf.png">
-            <div class="container pt-60 pb-60">
-                <!-- Section Content -->
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h2 class="title">Contacto</h2>
-                            {{--<ol class="breadcrumb text-center text-black mt-10">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li class="active text-theme-colored">Page Title</li>
-                            </ol>--}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section: Have Any Question -->
-        <section class="divider">
-            <div class="container pt-60 pb-60">
-                <div class="section-title mb-60">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="esc-heading small-border text-center">
-                                <h3>¿Tienes alguna pregunta?</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-content">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4">
-                            <div class="contact-info text-center">
-                                <i class="fa fa-phone font-36 mb-10 text-theme-colored"></i>
-                                <h4>Telefonos</h4>
-                                <h6 class="text-gray">Telefono: +262 695 2601</h6>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="contact-info text-center">
-                                <i class="fa fa-map-marker font-36 mb-10 text-theme-colored"></i>
-                                <h4>Dirección</h4>
-                                <h6 class="text-gray">Valle de Pubenza</h6>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="contact-info text-center">
-                                <i class="fa fa-envelope font-36 mb-10 text-theme-colored"></i>
-                                <h4>Email</h4>
-                                <h6 class="text-gray">gflandingpage@gmail.com</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Divider: Contact -->
         <section class="divider bg-lighter">
+            @if(session()->has('flash'))
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{ session()->get('flash') }}
+                </div>
+            @endif
             <div class="container">
 
                 <div class="row pt-30">
-                    @if(session()->has('flash'))
-                    <div class="alert alert-success alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        {{ session()->get('flash') }}
-                    </div>
-                    @endif
                     <div class="col-md-7">
-                        <h3 class="line-bottom mt-0 mb-30">¿Estas interesado?</h3>
+                        <h2 class="line-bottom mt-0 mb-30">¿Contáctanos?</h2>
 
                         <!-- Contact Form -->
                         <form id="" name="contact_form" class="" action="{{route('addClients')}}" method="post">
                             @csrf
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 pb-25">
                                     <div class="form-group {{$errors->has('nombre')? 'has-error':''}}">
-                                        <label>Nombre <small>*</small></label>
-                                        <input name="nombre" value="{{old('nombre')}}" class="form-control" type="text" placeholder="Enter Nombre" required="">
+                                        <label>Nombre
+                                            <small>*</small>
+                                        </label>
+                                        <input name="nombre" value="{{old('nombre')}}" class="form-control" type="text"
+                                               placeholder="Enter Nombre" required="">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6  pb-25">
                                     <div class="form-group {{$errors->has('apellidos')? 'has-error':''}}">
-                                        <label>Apellidos <small>*</small></label>
-                                        <input name="apellidos" value="{{old('apellidos')}}" class="form-control required email" type="text" placeholder="Enter Apellidos">
+                                        <label>Apellidos
+                                            <small>*</small>
+                                        </label>
+                                        <input name="apellidos" value="{{old('apellidos')}}"
+                                               class="form-control required email" type="text"
+                                               placeholder="Enter Apellidos">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6  pb-25">
                                     <div class="form-group {{$errors->has('email')? 'has-error':''}}">
-                                        <label>Email <small>*</small></label>
-                                        <input name="email" value="{{old('email')}}" class="form-control" type="email" placeholder="Enter Email">
+                                        <label>Email
+                                            <small>*</small>
+                                        </label>
+                                        <input name="email" value="{{old('email')}}" class="form-control" type="email"
+                                               placeholder="Enter Email">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-6  pb-25">
                                     <div class="form-group {{$errors->has('telefono')? 'has-error':''}}">
                                         <label>Télefono</label>
-                                        <input name="telefono" value="{{old('telefono')}}" class="form-control" type="text" placeholder="Enter Telefono">
+                                        <input name="telefono" value="{{old('telefono')}}" class="form-control"
+                                               type="text" placeholder="Enter Telefono">
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group {{$errors->has('mensaje')? 'has-error':''}}">
+                            {{--<div class="form-group {{$errors->has('mensaje')? 'has-error':''}}">
                                 <label>Mensaje</label>
                                 <textarea name="mensaje" value="{{old('mensaje')}}" class="form-control" rows="5" placeholder="Enter Mensaje"></textarea>
-                            </div>
+                            </div>--}}
                             <div class="form-group">
-                                <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                                <button type="submit" class="btn btn-block btn-theme-colored btn-flat" data-loading-text="Please wait...">Enviar</button>
+                                <input name="form_botcheck" class="form-control" type="hidden" value=""/>
+                                <button type="submit" class="btn btn-block btn-theme-colored btn-flat"
+                                        data-loading-text="Please wait...">Enviar
+                                </button>
                             </div>
                         </form>
 
@@ -861,18 +823,23 @@
                     <div class="col-md-5">
 
                         <!-- Banner de Fotos-->
-                        <div class="gallery-item design" style="margin-top: -56px;">
-                            <div class="thumb">
-                                <div class="flexslider-wrapper">
-                                    <div class="flexslider">
-                                        <ul class="slides">
-                                            <li><a title="Portfolio Gallery - Photo 1"><img src="/gf/images/gf/banner/banner_1_.png" alt=""></a></li>
-                                            <li><a title="Portfolio Gallery - Photo 2"><img src="/gf/images/gf/banner/banner_2_.png" alt=""></a></li>
-                                            {{--<li><a href="http://placehold.it/500x339" title="Portfolio Gallery - Photo 3"><img src="http://placehold.it/500x339" alt=""></a></li>--}}
-                                        </ul>
+                        <div class="banner_responsive">
+                            <div class="gallery-item design" style="margin-top: -113px;">
+                                <div class="thumb">
+                                    <div class="flexslider-wrapper">
+                                        <div class="flexslider">
+                                            <ul class="slides">
+                                                <li><a title="Portfolio Gallery - Photo 1"><img
+                                                                src="/gf/images/gf/banner/banner_1_.png" alt=""></a>
+                                                </li>
+                                                <li><a title="Portfolio Gallery - Photo 2"><img
+                                                                src="/gf/images/gf/banner/banner_2.png" alt=""></a></li>
+                                                {{--<li><a href="http://placehold.it/500x339" title="Portfolio Gallery - Photo 3"><img src="http://placehold.it/500x339" alt=""></a></li>--}}
+                                            </ul>
+                                        </div>
                                     </div>
+                                    <div class="overlay-shade"></div>
                                 </div>
-                                <div class="overlay-shade"></div>
                             </div>
                         </div>
                         <!-- Google Map Javascript Codes -->
@@ -912,105 +879,66 @@
     <!-- end main-content -->
 
     <!-- Footer -->
-    {{--<footer id="footer" class="footer">
-        <div class="container pt-40 pb-40">
-            <div class="row border-bottom-black">
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <img class="mt-10 mb-20" alt="" src="gd/images/gf/banner_gf.png">
-                        <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
-                        <ul class="mt-5">
-                            <li class="m-0 pl-0 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i> <a class="text-gray" href="#">123-456-789</a> </li>
-                            <li class="m-0 pl-0 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a class="text-gray" href="#">contact@yourdomain.com</a> </li>
-                            <li class="m-0 pl-0 pr-10"> <i class="fa fa-globe text-theme-colored mr-5"></i> <a class="text-gray" href="#">www.yourdomain.com</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h4 class="widget-title">Useful Links</h4>
-                        <ul class="list-border">
-                            <li><a href="index-mp-layout1.html">Home</a></li>
-                            <li><a href="page-about1.html">About us</a></li>
-                            <li><a href="shortcode-sitemap.html">Sitemap</a></li>
-                            <li><a href="page-faq-style1.html">Faq's</a></li>
-                            <li><a href="page-contact1.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h4 class="widget-title">Latest News</h4>
-                        <div class="latest-posts">
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Sustainable Construction</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                            <article class="post media-post clearfix pb-0 mb-10">
-                                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
-                                <div class="post-right">
-                                    <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront Installations</a></h5>
-                                    <p class="post-date mb-0 font-12">Mar 08, 2015</p>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="widget dark">
-                        <h4 class="widget-title">Opening Hours</h4>
-                        <div class="opening-hours">
-                            <ul class="list-border">
-                                <li class="clearfix"> <span> Mon - Tues :  </span>
-                                    <div class="value pull-right flip"> 6.00 am - 10.00 pm </div>
-                                </li>
-                                <li class="clearfix text-white"> <span> Wednes - Thurs :</span>
-                                    <div class="value pull-right flip"> 8.00 am - 6.00 pm </div>
-                                </li>
-                                <li class="clearfix"> <span> Fri : </span>
-                                    <div class="value pull-right flip"> 3.00 pm - 8.00 pm </div>
-                                </li>
-                                <li class="clearfix"> <span> Sun : </span>
-                                    <div class="value pull-right flip"> Closed </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container pt-20 pb-20">
+    <footer id="footer" class="">
+    {{--<section class="inner-header divider parallax layer-overlay overlay-white-8" data-bg-img="">
+        <div class="container pt-20 pb-20">
+            <!-- Section Content -->
+            <div class="section-content">
                 <div class="row">
-                    <div class="col-md-6 sm-text-center">
-                        <p class="font-13 text-black-777 m-0">Copyright &copy;2015 ThemeMascot. All Rights Reserved</p>
-                    </div>
-                    <div class="col-md-6 text-right flip sm-text-center">
-                        <div class="widget no-border m-0">
-                            <ul class="styled-icons icon-dark icon-circled icon-sm">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            </ul>
-                        </div>
+                    <div class="col-md-12 text-center">
+                        <h2 class="title">Contacto</h2>
+                        --}}{{--<ol class="breadcrumb text-center text-black mt-10">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li class="active text-theme-colored">Page Title</li>
+                        </ol>--}}{{--
                     </div>
                 </div>
             </div>
         </div>
-    </footer>--}}
+    </section>--}}
+
+    <!-- Section: Have Any Question -->
+        <section class="divider">
+            <div class="container pt-60 pb-60">
+                <div class="section-title mb-60">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="esc-heading small-border text-center">
+                                <h3>¿Tienes alguna pregunta?</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <div class="contact-info text-center">
+                                <i class="fa fa-phone font-36 mb-10 text-theme-colored"></i>
+                                <h4>Telefonos</h4>
+                                <h6 class="text-gray">Telefono: +262 695 2601</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-xl-4 col-xs-6">
+                            <div class="contact-info text-center">
+                                <i class="fa fa-map-marker font-36 mb-10 text-theme-colored"></i>
+                                <h4>Dirección</h4>
+                                <h6 class="text-gray">Valle de Pubenza</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <div class="contact-info text-center">
+                                <i class="fa fa-envelope font-36 mb-10 text-theme-colored"></i>
+                                <h4>Email</h4>
+                                <h6 class="text-gray">gflandingpage@gmail.com</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
     <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->

@@ -1018,11 +1018,13 @@ section > .container-fluid {
   padding-bottom: 10px;
 }
 .menuzord-brand img {
-  max-height: 38px;
+  max-height: 69px;
+  margin-top: -9px;
 }
 @media only screen and (max-width: 767px) {
   .menuzord-brand img {
-    max-height: 30px;
+    max-height: 50px;
+    margin-top: -1px;
   }
 }
 /* -------- Inner Header ---------- */

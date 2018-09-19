@@ -1,0 +1,46 @@
+@media (max-width:991px) and (min-width:768px){
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+@media (max-width:767px)  and (min-width:617px){
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+@media (max-width:616px)  and (min-width:569px) {
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+
+@media (max-width:568px)  and (min-width:450px) {
+
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+
+@media (max-width:449px)  and (min-width:415px) {
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+@media (max-width:414px) and (min-width:376px){
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}
+
+@media (max-width:375px) and (min-width:321px){
+    .banner_responsive{
+        margin-top: 116px;
+    }
+
+}
+
+@media (max-width:320px) {
+    .banner_responsive{
+        margin-top: 116px;
+    }
+}

@@ -66,16 +66,16 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="widget">
-                            <i class="fa fa-clock-o text-theme-colored"></i> Horario de Atención Lun - Sab : 6.00 am
-                            - 10.00 pm
+                            <i class="fa fa-clock-o text-theme-colored"></i> Horario de Atención Lun - Sab : 8.00 am
+                            - 6.30 pm
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="widget">
                             <ul class="list-inline pull-right flip sm-pull-none sm-text-center">
-                                <li><i class="fa fa-phone text-theme-colored"></i> Llámanos al<a href="#">+(012) 8200
+                                <li><i class="fa fa-phone text-theme-colored"></i> Llámanos al<a href="#"> 8200
                                         700</a></li>
-                                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">gflandingpage@gmail.com</a>
+                                <li><i class="fa fa-envelope-o text-theme-colored"></i> <a href="#">germanfernandez@odontologiaespecializada.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -763,7 +763,8 @@
 
                 <div class="row pt-30">
                     <div class="col-md-7">
-                        <h2 class="line-bottom mt-0 mb-30">¿Contáctanos?</h2>
+                        <h2 class="line-bottom mt-0 mb-30 queryDejanos">¿Déjanos brindarte mejor información?</h2>
+                        <h4 class="mt-0 mb-30">Ingresa tus datos aqui!</h4>
 
                         <!-- Contact Form -->
                         <form id="" name="contact_form" class="" action="{{route('addClients')}}" method="post">
@@ -905,7 +906,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="esc-heading small-border text-center">
-                                <h3>¿Tienes alguna pregunta?</h3>
+                                <h2>Contáctanos</h2>
                             </div>
                         </div>
                     </div>
@@ -916,21 +917,21 @@
                             <div class="contact-info text-center">
                                 <i class="fa fa-phone font-36 mb-10 text-theme-colored"></i>
                                 <h4>Telefonos</h4>
-                                <h6 class="text-gray">Telefono: +262 695 2601</h6>
+                                <h6 class="text-gray">Telefono: 8200700 - 314-394-2094</h6>
                             </div>
                         </div>
-                        <div class="col-sm-4 col-md-4 col-xl-4 col-xs-6">
+                        <div class="col-sm-4 col-md-4">
                             <div class="contact-info text-center">
                                 <i class="fa fa-map-marker font-36 mb-10 text-theme-colored"></i>
                                 <h4>Dirección</h4>
-                                <h6 class="text-gray">Valle de Pubenza</h6>
+                                <h6 class="text-gray">Carrera 3bis # 15AN-12 Centro de Especialistas Valle de Pubenza</h6>
                             </div>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <div class="contact-info text-center">
                                 <i class="fa fa-envelope font-36 mb-10 text-theme-colored"></i>
                                 <h4>Email</h4>
-                                <h6 class="text-gray">gflandingpage@gmail.com</h6>
+                                <h6 class="text-gray">germanfernandez@odontologiaespecializada.com</h6>
                             </div>
                         </div>
                     </div>

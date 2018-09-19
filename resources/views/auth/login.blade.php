@@ -36,7 +36,7 @@
 
                 <div class="card-box p-5">
                     <h2 class="text-uppercase text-center pb-4">
-                        <a href="index.html" class="text-success">
+                        <a href="{{route('index')}}" class="text-success">
                             <span><img src="/gf/images/gf/logoGF.png" alt="" height="85"></span>
                         </a>
                     </h2>

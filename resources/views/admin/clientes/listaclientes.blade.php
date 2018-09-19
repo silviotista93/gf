@@ -21,7 +21,6 @@
                         <th>Apellidos</th>
                         <th>Email</th>
                         <th>Telefono</th>
-                        <th>Mensanje</th>
                         <th>Fecha Registro</th>
                     </tr>
                     </thead>
@@ -44,7 +43,6 @@
                 {data: 'apellidos'},
                 {data: 'email'},
                 {data: 'telefono'},
-                {data: 'mensaje'},
                 {data: 'created_at'},
             ],
             "language":{

@@ -34,7 +34,7 @@ class LandingController extends Controller
         Mail::send('landing.email',$datos, function ($message) use($datos){
 
             $message->from('gflandingpage@gmail.com')
-            ->to('drgermanpopayan@hotmail.com','Mauricio')
+            ->to('drgermanpopayan@hotmail.com','German')
             ->subject('Nuevo Cliente');
         });
 

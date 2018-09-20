@@ -763,7 +763,7 @@
 
                 <div class="row pt-30">
                     <div class="col-md-7">
-                        <h2 class="line-bottom mt-0 mb-30 queryDejanos">¿Déjanos brindarte mejor información?</h2>
+                        <h2 class="line-bottom mt-0 mb-30 queryDejanos">Déjanos brindarte mejor información</h2>
                         <h4 class="mt-0 mb-30">Ingresa tus datos aqui!</h4>
 
                         <!-- Contact Form -->
